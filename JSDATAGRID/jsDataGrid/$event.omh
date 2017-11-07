@@ -1,0 +1,6 @@
+On evLayoutChanged
+	If pBreakpoint=600
+		Do $cinst.$objs.DataGrid.$::columnwidths.$assign('120,150,60,80,200')
+	Else
+		Do $cinst.$objs.DataGrid.$::columnwidths.$assign('85,95,50,30,1000')
+	End If
